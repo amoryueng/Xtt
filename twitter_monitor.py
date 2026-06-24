@@ -20,7 +20,7 @@ LAST_ID_FILE = os.path.join(BASE_DIR, 'last_id.json')
 
 # 运行模式配置
 LOOP_MODE = os.environ.get('LOOP_MODE', 'false').lower() == 'true'
-INTERVAL = int(os.environ.get('LOOP_INTERVAL', '600')) # 默认 10 分钟 (600秒)
+INTERVAL = int(os.environ.get('LOOP_INTERVAL', '300')) # 默认 10 分钟 (600秒)
 
 # 备选 Nitter 实例 (仅作为域名参考)
 NITTER_INSTANCES = [
